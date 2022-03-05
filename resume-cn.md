@@ -1,93 +1,98 @@
-# 蔡梦杰
+# 张小龙
 
-## 安卓开发工程师
+## 安卓架构师
 
-- 联系电话: +86 1xx-xxxx-xxxx
-- 电子邮箱: [blankj@qq.com](blankj@qq.com)
-- 个人博客: [http://blankj.com](http://blankj.com)
-- GitHub: [https://github.com/Blankj](https://github.com/Blankj)
+- 联系电话: +86 13739188962
+- 电子邮箱: [282347554@qq.com](282347554@qq.com)
+- GitHub: [https://github.com/galaxybruce](https://github.com/galaxybruce)
 
 
 ## 自我描述
-
-我是一名热爱**开源**的安卓开发者，喜欢把自己的代码分享给他人，方便他人学习和提供建议从而完善代码。我追求开发**高质量**及拥有**良好用户体验**的应用，对于这方面我编写了安卓开发的规范性文档 **[AndroidStandardDevelop](https://github.com/Blankj/AndroidStandardDevelop)** ，并把其发布到 GitHub 颇受好评；同样，我注重**开发效率**及**知识的累积**，在 GitHub 拥有 **22k+ stars** 的安卓工具类项目 **[AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode)** ，它可以极大地帮助安卓开发者们提升效率；当然，作为一名程序员，我也很是注重数据结构和算法，在 GitHub 上建立了自己的 LeetCode 题解 **[awesome-java-leetcode](https://github.com/Blankj/awesome-java-leetcode)** ，除此之外我还具有白板编程的能力。
+我是一名热爱**开源**的安卓开发者，喜欢把自己的代码分享给他人，方便他人学习和提供建议从而完善代码。我追求开发**高质量**及拥有**良好用户体验**的应用。以下是我的工作习惯：
+* 擅长总结项目中常用的逻辑并封装成工具类。
+* 三方库使用之前进行二次封装。
+* 擅长不断总结方案并写成笔记、有时间还会在oschina或者github上写博客。
+* 经常和团队探讨可行的方案以及分享技术成果。
+* 喜欢阅读github上的比较流行的开源项目代码。
+* 对开发效率以及开发规范有很高的追求，并有比较好的落实方案。
 
 
 ## 工作经验
 
-### **高级 Android 开发工程师** [阿里巴巴](https://www.alibabagroup.com)
+### **Android 架构师** [孩子王儿童用品股份有限公司](https://www.haiziwang.com/)
 
-*2018/10 - 至今*
+*2015/09 - 至今*
 
-在「支付宝技术部-中台技术部」下主要负责 Android 端的 AntUI 组件的维护，主要内容如下：
+在「技术研发中心」主要负责 Android 端的 架构设计、基础组件研发、性能优化以及团队管理等工作，主要内容如下：
 
-* 负责蚂蚁公共视觉组件的开发和维护，并输出给各业务线的使用。
-* 负责开发动画组件 LottiePlayer，并输出给各业务线的使用。
-* 负责支付宝首页小程序收藏下拉控件的开发。
+* *负责APP架构设计*。应用行业内流行的设计方案，持续迭代架构，为app适应各种业务需求提供高性能、可扩展的架构。
+* *基础组件研发*。为提高团队研发效率，不断提供可复用的基础组件。如相册、文件路径管理、封装了具备分页能力的RecyclerView等
+* *三方库封装*。方便更高效使用三方库、提高三方库升级的便利性。如图片加载glide库二次封装、腾讯云上传下载二次封装、下拉刷新上拉加载组件二次封装等，Rxjava封装三方库等
+* *启动速度优化*。通过对启动时的任务分类，并研发具有依赖关系的任务启动框架大大提高了app启动速度*，并且后续持续增加功能也不会明显影响启动速度。
+* *内存优化*。持续对app运行内存监控、优化。保证了app运行时的流畅度。
+* *APP渐进式组件化方案*。对工程进行组件化方案改造后，提高了团队相互写作、并行开发的效率。特别是能够快速适应不同复杂业务的并行开发。
+* *约束代码边界的pin工程方案*。自研的gradle插件，一种约束业务代码边界的高效方式，比module颗粒更小，编译速度更快。
+* *业务库多平台复用*。多平台复用的能力为公司很多业务在多个app上运营提供了很好的支持。
+* *团队管理*。业务需求分配、技术方案评审、组织团队代码review、组织交叉测试、防单点等研发管理工作 。
+* *git代码仓库*。带领团队从svn切换到git。gitlab代码库维护、git-flow流程规范制定以及分享。
+* *代码规范制定并负责落实*。制定规范->文档落实->代码框架层约束->开发插件生成代码模板。
+* *生成代码插件*。一键生成基于MVVM架构的代码文件（activity/fragment、layout、viewmode、request)，并建立文件间的关联，可以直接运行。对提高团队研发效率，保证研发规范具有肉眼可见的成效。
+* *新技术探索和落实*。如flutter、kotlin、jetpack在项目中落实。
+* *MVVM架构落实*。推动团队从MVP架构切换到MVVM模式，activity和fragment基类同时兼容MVP和MVVM模式，保证团队无缝切换。基于Jetpack的MVVM架构，对提高开发效率、避免空指针的、处理事件分发等收益很大。
+* *Android项目编译速度优化*。通过自研的插件[AndroidPionner](https://github.com/galaxybruce/AndroidPionner) ，大大提高了编译速度。从原来运行8分钟左右，降到30秒左右。
+* *flutter混编现有的项目*。用dart写的脚本，能够批量把flutter以及flutter依赖的三方插件上传到maven远程仓库，保证混编项目灵活切换对flutter源码依赖以及maven依赖。保证了flutter对现有项目的透明度，不影响其他成员对flutter的依赖。
+* *用docker搭建maven仓库*。搭建maven仓库，才可以让工程化建设成为可能。
+  
+  
+### **高级 Android 开发工程师** [诚迈科技](https://www.archermind.com/)
 
+*2010/07 - 2015/09*
 
-### **高级 Android 开发工程师** [51 信用卡](https://www.u51.com)
+在「Android 对外业务事业部」主要从事android平台的智能手机应用程序开发。在这个公司从刚开始接触Android到核心工程师再到项目经理的角色转变，主要内容如下：
 
-*2018/03 - 2018/08*
+* 华为即时聊天IM工具Hotalk开发
+* 华为应用市场App开发
+* DBank音乐app项目android手机客户端开发
 
-在「Android 客户端基础架构组」下主要负责提升工程效率和新技术的引进，主要内容如下：
+### **Java 开发工程师** [联创科技（南京）有限公司](http://www.lianchuang.com/)
 
-* 统一 Android 公共工具库以提升团队开发效率；
-* 状态栏刘海适配；
-* 封装统一线程池来优化应用内存使用；
-* Android P 新特性分享供团队学习研究；
-* 为业务团队提供良好 SDK 提升业务开发效率；
-* 为团队开发工程模板插件以提升开发效率和开发规范。
+*2008/07 - 2010/06*
 
-
-### **高级 Android 开发工程师** [吉利亿咖通科技有限公司](http://www.ecarx.com.cn)
-
-*2017/02 - 2018/03*
-
-在「数字座舱 App 部门」中作为基础组件开发的核心成员，其主要职责如下：
-
-* 为开发团队书写了安卓开发规范文档，更有利于维护项目，促进成员之间 CR，提升团队开发效率；
-* 提取开发中的公共组件模块，合理分类并封装它们，提升组件复用性，减少团队任务量从而提升开发效率；
-* 结合 [marx/xlog](https://github.com/Tencent/mars) 开发了团队日志框架，日志性能大幅提高，查看日志更为方便，开发效率大为提升；
-* 为团队封装公共提示库，使其提示更为规范统一，减少团队任务量从而提升开发效率；
-* 为各应用提供公共埋点库，减少团队任务量从而提升开发效率，使埋点统计更为方便。
-
-### **Android 开发工程师** [杭州纳帕科技有限公司](http://www.53iq.com)
-
-
-*2015/06 - 2017/02*
-
-在安卓团队中主要从事智能厨电方面的开发，其主要经历如下：
-
-* 参与项目的搭建，选用合适的架构，合理分包，使可读性更好，促进团队开发效率；
-* 参与多个项目的用户界面设计，可灵活运用原生组件，追求良好的用户体验；
-* 参与公共组件的封装，提升组件复用性，从而提升团队开发效率；
-* 封装电控板对接的协议，从而让协议的通用性更高。
-
+web应用程序研发，所用技术：java，struts，spring，ibatis，birt，oracle，weblogic，unix。
 
 ## 技能专长
 
 以下都是我平时用过或熟悉的编程语言、框架、软件及工具，带 ^†^ 符号的是我比较喜欢和常用的。
+
+### 开源项目
+- [AndroidTouchStone](https://github.com/galaxybruce/AndroidTouchStone) - 应用了android最新特性的一个成熟的app壳子项目
+- [GAndroidCodeTemplateForAS](https://github.com/galaxybruce/GAndroidCodeTemplateForAS) - 配合[AndroidTouchStone](https://github.com/galaxybruce/AndroidTouchStone) 项目的代码生成插件
+- [AndroidPionner](https://github.com/galaxybruce/AndroidPionner) - android项目编译插件（批量上传maven、module支持多平台、pin工程编译）
+- [Anchors](https://github.com/galaxybruce/Anchors) - fork开源项目改造的app启动任务框架
 
 ### 编程语言
 
 - [Java](https://www.java.com)^†^
 - [Kotlin](http://kotlinlang.org)^†^
 - [Python](https://www.python.org)
-- [C/C++](http://www.cplusplus.com)
 - [Shell](http://www.linuxshell.it)
 - [JavaScript](https://www.javascript.com)
 - [HTML](https://www.w3.org/html)
-
+- [dart](https://dart.cn/)
 
 ### 框架
 
+- [Jetpack](https://developer.android.google.cn/jetpack)^†^
+- [RxJava](https://reactivex.io/)^†^
 - [RxAndroid](https://github.com/ReactiveX/RxAndroid)^†^
 - [EventBus](https://github.com/greenrobot/EventBus)^†^
 - [Retrofit](https://github.com/square/retrofit)^†^
 - [Gson](https://github.com/google/gson)^†^
 - [Glide](https://github.com/bumptech/glide)^†^
-- [Dagger2](https://github.com/google/dagger)
+- [ARouter](https://github.com/alibaba/ARouter)^†^
+- [Flutter-Boost](https://github.com/alibaba/flutter_boost)
+- [fish-redux](https://github.com/alibaba/fish-redux)
+- [Vue](https://cn.vuejs.org/)
 
 
 ### 工具软件
@@ -96,30 +101,34 @@
 - [Adobe Photoshop](http://www.adobe.com/cn/products/cs6/photoshop.html)
 - [Alfred 3](https://www.alfredapp.com)^†^
 - [Android Studio](https://developer.android.com/studio/index.html?hl=zh-cn)^†^
-- [Atom](https://atom.io)^†^
+- [vsCode](https://code.visualstudio.com/)^†^
 - [Git](https://git-scm.com)^†^
 - [IntelliJ IDEA](https://www.jetbrains.com/idea)^†^
+- [IntelliJ IDEA CE](https://www.jetbrains.com/idea)^†^
 - [iTerm](https://www.iterm2.com)^†^
-- [JIRA](https://www.atlassian.com/software/jira)^†^
 - [on-my-zsh](https://github.com/robbyrussell/oh-my-zsh)^†^
 - [Postman](https://www.getpostman.com)^†^
 - [PyCharm](https://www.jetbrains.com/pycharm)
+- [Navicat-Premium](http://www.navicat.com.cn/products/navicat-premium)
 - [Source Tree](https://www.sourcetreeapp.com)^†^
-- [XMind](https://www.xmind.cn)
-
+- [Charles](https://www.charlesproxy.com/)^†^
+- [MWeb](https://zh.mweb.im/)^†^
+- [印象笔记](https://www.yinxiang.com/)^†^
+- [Plant-UML](https://plantuml.com/zh/)
+- [Jenkins](https://www.jenkins.io/)^†^
+- [幕布（思维导图工具）](https://mubu.com/home)
 
 ## 教育经历
 
-*2012 - 2016* [浙江传媒学院](http://www.zjicm.edu.cn) 电子信息工程 本科
+*2004 - 2008* [安徽工业大学](https://www.ahut.edu.cn/) 计算机科学与技术 本科
 
 
 ## 个人荣誉
 
-* 荣获第 13 届浙江省 **ACM 大赛**；
-* 第 6 届和第 7 届蓝桥杯 **省赛一等**，**国赛二等**；
-* 3 次 **一等校奖学金** 及 3 次 **二等校奖学金**。
+* 3 次 **二等校奖学金**。
+* 党员
 
 
 ## 兴趣爱好
 
-爱折腾，喜欢探索和尝试没有干过的新鲜事物，业余喜爱打羽毛球、跑步。
+业余喜爱踢球。
