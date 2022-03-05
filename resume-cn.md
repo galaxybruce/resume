@@ -60,11 +60,11 @@
 
 web应用程序研发，所用技术：java，struts，spring，ibatis，birt，oracle，weblogic，unix。
 
-## 技能专长
+## 技能专长2022年3月5日
 
 以下都是我平时用过或熟悉的编程语言、框架、软件及工具，带 ^†^ 符号的是我比较喜欢和常用的。
 
-### 开源项目
+### 我的开源项目
 - [AndroidTouchStone](https://github.com/galaxybruce/AndroidTouchStone) - 应用了android最新特性的一个成熟的app壳子项目。
 - [GAndroidCodeTemplateForAS](https://github.com/galaxybruce/GAndroidCodeTemplateForAS) - 配合[AndroidTouchStone](https://github.com/galaxybruce/AndroidTouchStone) 项目的代码生成插件。
 - [AndroidPionner](https://github.com/galaxybruce/AndroidPionner) - android项目编译插件（批量上传maven、module支持多平台、pin工程编译）。
