@@ -25,23 +25,23 @@
 
 在「技术研发中心」主要负责 Android 端的 架构设计、基础组件研发、性能优化以及团队管理等工作，主要内容如下：
 
-* *负责APP架构设计*。应用行业内流行的设计方案，持续迭代架构，为app适应各种业务需求提供高性能、可扩展的架构。
-* *基础组件研发*。为提高团队研发效率，不断提供可复用的基础组件。如相册、文件路径管理、封装了具备分页能力的RecyclerView等
-* *三方库封装*。方便更高效使用三方库、提高三方库升级的便利性。如图片加载glide库二次封装、腾讯云上传下载二次封装、下拉刷新上拉加载组件二次封装等，Rxjava封装三方库等
-* *启动速度优化*。通过对启动时的任务分类，并研发具有依赖关系的任务启动框架大大提高了app启动速度*，并且后续持续增加功能也不会明显影响启动速度。
-* *内存优化*。持续对app运行内存监控、优化。保证了app运行时的流畅度。
-* *APP渐进式组件化方案*。对工程进行组件化方案改造后，提高了团队相互写作、并行开发的效率。特别是能够快速适应不同复杂业务的并行开发。
-* *约束代码边界的pin工程方案*。自研的gradle插件，一种约束业务代码边界的高效方式，比module颗粒更小，编译速度更快。
-* *业务库多平台复用*。多平台复用的能力为公司很多业务在多个app上运营提供了很好的支持。
-* *团队管理*。业务需求分配、技术方案评审、组织团队代码review、组织交叉测试、防单点等研发管理工作 。
-* *git代码仓库*。带领团队从svn切换到git。gitlab代码库维护、git-flow流程规范制定以及分享。
-* *代码规范制定并负责落实*。制定规范->文档落实->代码框架层约束->开发插件生成代码模板。
-* *生成代码插件*。一键生成基于MVVM架构的代码文件（activity/fragment、layout、viewmode、request)，并建立文件间的关联，可以直接运行。对提高团队研发效率，保证研发规范具有肉眼可见的成效。
-* *新技术探索和落实*。如flutter、kotlin、jetpack在项目中落实。
-* *MVVM架构落实*。推动团队从MVP架构切换到MVVM模式，activity和fragment基类同时兼容MVP和MVVM模式，保证团队无缝切换。基于Jetpack的MVVM架构，对提高开发效率、避免空指针的、处理事件分发等收益很大。
-* *Android项目编译速度优化*。通过自研的插件[AndroidPionner](https://github.com/galaxybruce/AndroidPionner) ，大大提高了编译速度。从原来运行8分钟左右，降到30秒左右。
-* *flutter混编现有的项目*。用dart写的脚本，能够批量把flutter以及flutter依赖的三方插件上传到maven远程仓库，保证混编项目灵活切换对flutter源码依赖以及maven依赖。保证了flutter对现有项目的透明度，不影响其他成员对flutter的依赖。
-* *用docker搭建maven仓库*。搭建maven仓库，才可以让工程化建设成为可能。
+* `负责APP架构设计`。应用行业内流行的设计方案，持续迭代架构，为app适应各种业务需求提供高性能、可扩展的架构。
+* `基础组件研发`。为提高团队研发效率，不断提供可复用的基础组件。如相册、文件路径管理、封装了具备分页能力的RecyclerView等
+* `三方库封装`。方便更高效使用三方库、提高三方库升级的便利性。如图片加载glide库二次封装、腾讯云上传下载二次封装、下拉刷新上拉加载组件二次封装等，Rxjava封装三方库等
+* `启动速度优化`。通过对启动时的任务分类，并研发具有依赖关系的任务启动框架大大提高了app启动速度*，并且后续持续增加功能也不会明显影响启动速度。
+* `内存优化`。持续对app运行内存监控、优化。保证了app运行时的流畅度。
+* `APP渐进式组件化方案`。对工程进行组件化方案改造后，提高了团队相互写作、并行开发的效率。特别是能够快速适应不同复杂业务的并行开发。
+* `约束代码边界的pin工程方案`。自研的gradle插件，一种约束业务代码边界的高效方式，比module颗粒更小，编译速度更快。
+* `业务库多平台复用`。多平台复用的能力为公司很多业务在多个app上运营提供了很好的支持。
+* `团队管理`。业务需求分配、技术方案评审、组织团队代码review、组织交叉测试、防单点等研发管理工作 。
+* `git代码仓库`。带领团队从svn切换到git。gitlab代码库维护、git-flow流程规范制定以及分享。
+* `代码规范制定并负责落实`。制定规范->文档落实->代码框架层约束->开发插件生成代码模板。
+* `生成代码插件`。一键生成基于MVVM架构的代码文件（activity/fragment、layout、viewmode、request)，并建立文件间的关联，可以直接运行。对提高团队研发效率，保证研发规范具有肉眼可见的成效。
+* `新技术探索和落实`。如flutter、kotlin、jetpack在项目中落实。
+* `MVVM架构落实`。推动团队从MVP架构切换到MVVM模式，activity和fragment基类同时兼容MVP和MVVM模式，保证团队无缝切换。基于Jetpack的MVVM架构，对提高开发效率、避免空指针的、处理事件分发等收益很大。
+* `Android项目编译速度优化`。通过自研的插件[AndroidPionner](https://github.com/galaxybruce/AndroidPionner) ，大大提高了编译速度。从原来运行8分钟左右，降到30秒左右。
+* `flutter混编现有的项目`。用dart写的脚本，能够批量把flutter以及flutter依赖的三方插件上传到maven远程仓库，保证混编项目灵活切换对flutter源码依赖以及maven依赖。保证了flutter对现有项目的透明度，不影响其他成员对flutter的依赖。
+* `用docker搭建maven仓库`。搭建maven仓库，才可以让工程化建设成为可能。
   
   
 ### **高级 Android 开发工程师** [诚迈科技](https://www.archermind.com/)
@@ -50,9 +50,9 @@
 
 在「Android 对外业务事业部」主要从事android平台的智能手机应用程序开发。在这个公司从刚开始接触Android到核心工程师再到项目经理的角色转变，主要内容如下：
 
-* 华为即时聊天IM工具Hotalk开发
-* 华为应用市场App开发
-* DBank音乐app项目android手机客户端开发
+* 华为即时聊天IM工具Hotalk开发。
+* 华为应用市场App开发。
+* DBank音乐app项目android手机客户端开发。
 
 ### **Java 开发工程师** [联创科技（南京）有限公司](http://www.lianchuang.com/)
 
@@ -65,10 +65,10 @@ web应用程序研发，所用技术：java，struts，spring，ibatis，birt，
 以下都是我平时用过或熟悉的编程语言、框架、软件及工具，带 ^†^ 符号的是我比较喜欢和常用的。
 
 ### 开源项目
-- [AndroidTouchStone](https://github.com/galaxybruce/AndroidTouchStone) - 应用了android最新特性的一个成熟的app壳子项目
-- [GAndroidCodeTemplateForAS](https://github.com/galaxybruce/GAndroidCodeTemplateForAS) - 配合[AndroidTouchStone](https://github.com/galaxybruce/AndroidTouchStone) 项目的代码生成插件
-- [AndroidPionner](https://github.com/galaxybruce/AndroidPionner) - android项目编译插件（批量上传maven、module支持多平台、pin工程编译）
-- [Anchors](https://github.com/galaxybruce/Anchors) - fork开源项目改造的app启动任务框架
+- [AndroidTouchStone](https://github.com/galaxybruce/AndroidTouchStone) - 应用了android最新特性的一个成熟的app壳子项目。
+- [GAndroidCodeTemplateForAS](https://github.com/galaxybruce/GAndroidCodeTemplateForAS) - 配合[AndroidTouchStone](https://github.com/galaxybruce/AndroidTouchStone) 项目的代码生成插件。
+- [AndroidPionner](https://github.com/galaxybruce/AndroidPionner) - android项目编译插件（批量上传maven、module支持多平台、pin工程编译）。
+- [Anchors](https://github.com/galaxybruce/Anchors) - fork开源项目改造的app启动任务框架。
 
 ### 编程语言
 
