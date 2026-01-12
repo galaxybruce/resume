@@ -1,24 +1,25 @@
 # 张小龙
 
-## android架构师
+## Android架构师 | Android研发经理
 
 - 联系电话: 13739188962
 - 电子邮箱: [282347554@qq.com](282347554@qq.com)
 - GitHub主页: [https://github.com/galaxybruce](https://github.com/galaxybruce)
 
 
-## 自我描述
-我是一名安卓应用软件工程师，具有十几年的安卓应用开发经验和10年的带队经验。在过往的工作中，我不仅积累了丰富的实战经验，还锻炼了快速学习新技术和高效解决复杂问题的能力：
-* 擅长总结项目中常用的逻辑并封装成工具类。
-* 对三方库进行二次封装，方便后期维护和替换。
-* 经常和团队成员探讨技术方案以及分享技术成果。
-* 喜欢阅读github上的比较流行的开源项目。
-* 不断尝试新技术以及优秀的解决方案（通过开发一个通用的app框架并在上面不断验证技术和流程）。
-* 不断优化开发流程、开发规范、开发效率，并且有比较好的落地经验。
-* 丰富的带队经验和团队协作经验。
+## 核心优势
+1. **技术深度**：15年Android研发经验，精通MVVM架构落地、渐进式组件化、Pin工程等核心架构设计，自研编译加速/代码生成/启动框架等工具，编译速度从8分钟降至30秒，代码生成提效70%；
+2. **工程化能力**：主导SVN→Git迁移并落地Git-Flow流程，搭建Docker化Maven仓库，实现Flutter混编零侵入集成、业务库多平台复用；
+3. **跨技术栈融合**：主导 Flutter 混编、UniApp 集成、实现技术跨端落地与业务高效复用；
+4. **性能优化**：熟悉内存、启动速度等性能调优，通过 Profiler/MAT 等工具保障 App 流畅性，启动框架优化使启动速度提升 50%+；
+5. **新技术落地**：前瞻性落地Flutter混编、Compose新特性、AI辅助编程等技术，Flutter实现零侵入集成现有项目，Compose UI编程大幅提高业务开发效率，AI编程提效日常开发30%，技术栈持续紧跟行业前沿。
+6. **团队管理**：10年+带队经验，搭建标准化研发流程（需求评审→方案设计→Code Review→Bug复盘），团队代码规范落地至插件层，新人融入效率提升50%；
+7. **场景落地**：深耕新零售线下场景，主导收银/POS/自助收银/ERP/订单打印等核心业务研发，适配硬件+软件一体化解决方案。
 
 
 ## 工作经验
+> 说明：南京元数科技有限公司、江苏联童科技有限公司、孩子王儿童用品股份有限公司这3家公司是五星集团旗下的子公司，合同变动属于团队内部调动。
+
 ### 一、**Android高级研发经理** -南京元数科技有限公司
 
 *2023/03 - 至今*
@@ -31,6 +32,8 @@
 5. 安卓POS系统研发
 6. 安卓自助收银系统研发
 7. 团队的日常业务开发进度管理和人员协调以及技术方案设计
+8. 熟练使用Compose UI，并在项目中大规模使用
+9. 在团队中普及AI辅助编程工具使用
 
 ### 二、**Android高级研发经理** -江苏联童科技有限公司
 
@@ -42,7 +45,7 @@
 3. 直播业务开发
 4. 团队的日常业务开发进度管理和人员协调以及技术方案设计
 
-### 三、**Android研发经理** -[孩子王儿童用品股份有限公司](https://www.haiziwang.com/)
+### 三、**Android研发经理** -孩子王儿童用品股份有限公司
 
 *2015/09 - 2018/12*
 
@@ -102,21 +105,17 @@
 * **业务覆盖** 需求不忙的时候，组织组员互相熟悉对方业务、代码并输出文档。
 * **人员离职** 离职有专门的交接文档，包括业务名称、交接人、产品负责人、测试负责人、正在做的需求tapd、代码地址以及分支介绍、上线日期、拉入对应的群、备注说明。
 
-### 四、**高级Android开发工程师** -[诚迈科技](https://www.archermind.com/)
-
+### 四、**高级Android开发工程师** -诚迈科技
 *2010/07 - 2015/09*
 
-在「Android 对外业务事业部」主要从事android平台的智能手机应用程序开发。在这个公司从刚开始接触Android到核心工程师再到项目经理的角色转变，主要内容如下：
+* 参与华为Hotalk（即时聊天IM）、应用市场、DBank音乐App核心研发，从初级工程师成长为核心开发/项目经理；
+* 主导模块性能优化与代码重构，提升App稳定性与用户体验。
 
-* 华为即时聊天IM工具Hotalk开发。
-* 华为应用市场App开发。
-* 华为DBank音乐app项目android手机客户端开发。
-
-### 五、**Java开发工程师** -[联创科技（南京）有限公司](http://www.lianchuang.com/)
+### 五、**Java开发工程师** -联创科技（南京）有限公司
 
 *2008/07 - 2010/06*
 
-web应用程序研发，所用技术：java，struts，spring，ibatis，birt，oracle，weblogic，unix。
+* web应用程序研发，所用技术：java，struts，spring，ibatis，birt，oracle，weblogic，unix。
 
 ## 技能专长
 
@@ -141,6 +140,7 @@ web应用程序研发，所用技术：java，struts，spring，ibatis，birt，
 
 ### 擅长的框架
 
+- [Compose](https://developer.android.com/compose)
 - [Jetpack](https://developer.android.google.cn/jetpack)
 - [RxJava](https://reactivex.io/)
 - [RxAndroid](https://github.com/ReactiveX/RxAndroid)
@@ -155,6 +155,7 @@ web应用程序研发，所用技术：java，struts，spring，ibatis，birt，
 
 
 ### 经常使用的工具
+- [trae](https://www.trae.ai/)
 - [Adobe Photoshop](http://www.adobe.com/cn/products/cs6/photoshop.html)
 - [Alfred 3](https://www.alfredapp.com)
 - [Android Studio](https://developer.android.com/studio/index.html?hl=zh-cn)
@@ -178,7 +179,6 @@ web应用程序研发，所用技术：java，struts，spring，ibatis，birt，
 ## 教育经历
 
 *2004 - 2008* [安徽工业大学](https://www.ahut.edu.cn/) 计算机科学与技术 本科
-
 
 ## 个人荣誉
 
