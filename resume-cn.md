@@ -14,7 +14,7 @@
 4. **性能优化**：熟悉内存、启动速度等性能调优，通过 Profiler/MAT 等工具保障 App 流畅性，启动框架优化使启动速度提升 50%+；
 5. **新技术落地**：前瞻性落地Flutter混编、Compose新特性、AI辅助编程等技术，Flutter实现零侵入集成现有项目，Compose UI编程大幅提高业务开发效率，AI编程提效日常开发30%，技术栈持续紧跟行业前沿。
 6. **团队管理**：10年+带队经验，搭建标准化研发流程（需求评审→方案设计→Code Review→Bug复盘），团队代码规范落地至插件层，新人融入效率提升50%；
-7. **场景落地**：深耕新零售线下场景，主导收银/POS/自助收银/ERP/订单打印等核心业务研发，适配硬件+软件一体化解决方案。
+7. **关键技术栈**：java、koltin、compose ui、dart、flutter、mvp、mvvm、databinding + livedata + lifecycle + Retrofit + Kotlin、gradle插件开发、AI辅助编程。
 
 
 ## 工作经验
