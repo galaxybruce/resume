@@ -1,104 +1,96 @@
-# Mengjie Cai
+# Zhang Xiaolong
 
-## Android Software Engineer
+## Senior Android R&D Engineer
+- Phone: 13739188962
+- Email: [282347554@qq.com](282347554@qq.com)
+- GitHub: [https://github.com/galaxybruce](https://github.com/galaxybruce)
 
-- Phone: +86 1xx-xxxx-xxxx
-- Email: [blankj@qq.com](blankj@qq.com)
-- Blog: [http://blankj.com](http://blankj.com)
-- GitHub: [https://github.com/Blankj](https://github.com/Blankj)
+## Core Strengths
+1. **Proficient Tech Stack**: MCP, MVP, MVVM, MVI architectures, componentization, Java, Kotlin, Compose, DataBinding, OkHttp, Retrofit, RxJava, Flutter.
+2. **Cross-Platform Capability**: Implemented Flutter hybrid stack with zero-intrusion integration into native Android projects.
+3. **Performance Optimization**: Experienced in memory and startup tuning; used LeakCanary, Profiler to analyze leaks; optimized app cold start to under 1 second.
+4. **R&D Efficiency**: Reduced project build time from 8 minutes to 30 seconds; built IntelliJ IDEA plugin to boost page creation efficiency by 90%; proficient with AI tools (trae, antigravity).
 
+## Work Experience
+> Note: Nanjing Yuanshu Technology, Jiangsu Liantong Technology, and HaiZiWang Children Products are subsidiaries of Five-Star Group; transfers are internal team movements.
 
-## Summary
+### Senior Android R&D Manager
+*Nanjing Yuanshu Technology Co., Ltd. | Mar 2023 – Present*
 
-I am an Android developer who deeply love **open source**. I'd like to share my code which may help developers, and they can submit issues to improve the code. I am passionate about building **high quality** apps which have **good user interfaces**. In this case, I create a repository, **[AndroidStandardDevelop](https://github.com/Blankj/AndroidStandardDevelop)**, which is well received to help developers practice best in Android. Beyond that, I focus on the development efficiency and knowledge accumulation. I created **[AndroidUtilCode](https://github.com/Blankj/AndroidUtilCode)** which has received more than **22k stars** to help developers develop more efficient. Of course, as a programmer, I also pay attention to data structures and algorithms. I create  **[awesome-java-leetcode](https://github.com/Blankj/awesome-java-leetcode)** to solve the problems in LeetCode.
+### Senior Android R&D Manager
+*Jiangsu Liantong Technology Co., Ltd. | Sep 2019 – Mar 2023*
 
+### Android R&D Manager
+*HaiZiWang Children Products Co., Ltd. | Sep 2015 – Aug 2019*
 
-## Experience
+Responsible for Android architecture design, infrastructure component development, performance optimization, and core business development.
 
-### **Android Software Engineer**  [51NB](https://www.u51.com)
+#### Technical Infrastructure
+- **App Architecture**: Applied MVP, MVVM, MVI; designed componentization with routing and inter-component communication frameworks.
+- **Code Generation Plugin**: One-click generation of MVVM template files (Activity/Fragment/Dialog/Layout/ViewModel/Request) with automatic association; improves efficiency and ensures code consistency.
+- **Memory Optimization**: Monitored and optimized memory with Profiler, MAT to ensure app fluency.
+- **Startup Optimization**: Developed task scheduling framework with dependency management; kept startup fast while scaling features.
+- **Build Speed Optimization**: Uploaded modules to Maven, disabled bytecode instrumentation for development, supported single-module running; reduced build time from ~8 min to 30s.
+- **Basic Components**: Developed reusable components: album, file path management, wrapped RecyclerView with pull-to-refresh/pagination/empty/error states, simplified startActivityForResult.
+- **Third-Party Library Wrapper**: Encapsulated Glide, Tencent Cloud upload/download, pull-to-refresh, RxJava-based libraries for easier upgrade and usage.
+- **Componentization**: Decoupled modules, supported inter-component communication and flexible module packaging; improved parallel development efficiency.
+- **Git Migration**: Led migration from SVN to Git; maintained GitLab and established Git-Flow workflow.
+- **Code Specification**: Implemented specification via documentation, framework constraints, and code templates; unified team code style.
+- **MVVM Migration**: Built base classes compatible with MVP & MVVM; adopted Jetpack MVVM for lifecycle safety, null safety, and event handling.
+- **Flutter Hybrid Integration**: Used Dart scripts to auto-publish Flutter artifacts to Maven; achieved zero-intrusion integration.
+- **Maven Repository**: Built private Maven repository with Docker to support engineering infrastructure.
+- **Android Cloud Control**: Developed cluster control based on Appium for WeChat account management and community operations.
 
-*March 2018 - Present*
+#### Key Projects
+- Order Printing: Bluetooth & all-in-one printer support, manual/automatic continuous printing.
+- IM Customer Service: Socket-based real-time chat between C-end users and B-end merchants.
+- ERP System: Inventory check, transfer, picking/review, purchase, return, storage management.
+- Live Streaming: Live and co-streaming based on Qiniu Cloud.
+- Smart Screen: Store large-screen application development.
+- Community Module: Posts, online album, expert Q&A for HaiZiWang App.
+- Poster Component: Render shared posters matching PC decoration styles.
+- B-end Cashier: Multiple payment methods.
+- Online Order Printing: Auto-receipt printing and voice broadcast.
+- Price Tag Printing: Store product label printing.
+- Mobile Cashier: In-app commodity sales system.
+- POS System: Store cashier system.
+- Self-checkout System: Unattended checkout solution.
 
+#### Team Management
+- Demand review and task assignment based on team members’ skills.
+- Technical design review and documentation for complex businesses.
+- Code review and cross-testing.
+- Online bug retrospective and improvements in framework or specifications.
 
-### **Android Software Engineer**  [e-CarX](http://www.ecarx.com.cn)
+### Senior Android Developer
+*Chengmai Technology | Jul 2010 – Sep 2015*
+- Core development for Huawei Hotalk IM, App Market, DBank Music; promoted to core developer & project manager.
 
-*February 2017 - March 2018*
+### Java Developer
+*Lianchuang Technology (Nanjing) Co., Ltd. | Jul 2008 – Jun 2010*
+- Web application development with Java, Struts, Spring, iBatis, Birt, Oracle, WebLogic, UNIX.
 
-I play an important role in developing the basic component in Android team. My main contributions are as follows.
-
-* Writing the document to help team practice best in developing. It promotes code review between members and rapids app development efficiency.
-* Classifying and encapsulating the common component in development reasonably, which improves team development efficiency.
-* Developing a simple, pretty and powerful logger which is based on [marx/xlog](https://github.com/Tencent/mars) to improve development efficiency for team.
-* Wrapping a unified dialogs and toast for team.
-* Provide a statistics library, reducing the amount of team tasks to enhance development efficiency.
-
-
-### **Android Software Engineer** [53iq](http://www.53iq.com)
-
-*June 2015 - February 2017*
-
-I mainly engaged in the development of smart kitchen. My main experience is as follows:
-
-* Participate in the construction of the project, choose the reasonable architecture, package by feature appropriately, which promote  development efficiency for  team.
-* Use of native components flexibly to build good user interfaces.
-* Encapsulate public libraries to enhance reusability.
-* Encapsulate the protocol of the electric control board so as to make the protocol more versatile.
-
-
-## Skills & Expertise
-
-These are languages, tools, and practices to which I have had exposure over the past years. Those things which enjoy routine usage in my daily work are denoted with a ^†^ symbol.
+## Technical Skills
+### Open Source Projects
+- [AndroidTouchStone](https://github.com/galaxybruce/AndroidTouchStone): Mature Android app skeleton with latest features.
+- [GAndroidCodeTemplateForAS](https://github.com/galaxybruce/GAndroidCodeTemplateForAS): Code generation plugin for AndroidTouchStone.
+- [AndroidPionner](https://github.com/galaxybruce/AndroidPionner): Build plugin for batch Maven upload, multi-platform module, pin project.
 
 ### Programming Languages
+Java, Kotlin, Python, Shell, JavaScript, HTML, Dart, Groovy
 
-- [Java](https://www.java.com)^†^
-- [Python](https://www.python.org)
-- [Kotlin](http://kotlinlang.org)
-- [C/C++](http://www.cplusplus.com)
-- [Shell](http://www.linuxshell.it)
-- [JavaScript](https://www.javascript.com)
-- [HTML](https://www.w3.org/html)
+### Frameworks
+Compose, Jetpack, RxJava, RxAndroid, EventBus, Retrofit, Gson, Glide, ARouter, Flutter-Boost, fish-redux, Vue
 
-
-### Frameworks & APIs
-
-- [RxAndroid](https://github.com/ReactiveX/RxAndroid)^†^
-- [EventBus](https://github.com/greenrobot/EventBus)^†^
-- [Retrofit](https://github.com/square/retrofit)^†^
-- [Gson](https://github.com/google/gson)^†^
-- [Glide](https://github.com/bumptech/glide)^†^
-- [Dagger2](https://github.com/google/dagger)
-
-
-### Software & Tools
-
-- [Mac OS X](http://apple.com/macosx)^†^
-- [Adobe Photoshop](http://www.adobe.com/cn/products/cs6/photoshop.html)
-- [Alfred 3](https://www.alfredapp.com)^†^
-- [Android Studio](https://developer.android.com/studio/index.html?hl=zh-cn)^†^
-- [Atom](https://atom.io)^†^
-- [Git](https://git-scm.com)^†^
-- [IntelliJ IDEA](https://www.jetbrains.com/idea)^†^
-- [iTerm](https://www.iterm2.com)^†^
-- [JIRA](https://www.atlassian.com/software/jira)^†^
-- [on-my-zsh](https://github.com/robbyrussell/oh-my-zsh)^†^
-- [Postman](https://www.getpostman.com)^†^
-- [PyCharm](https://www.jetbrains.com/pycharm)
-- [Source Tree](https://www.sourcetreeapp.com)^†^
-- [XMind](https://www.xmind.cn)
-
+### Tools
+trae, Adobe Photoshop, Alfred 3, Android Studio, VS Code, Git, IntelliJ IDEA, iTerm, oh-my-zsh, Postman, PyCharm, Navicat Premium, SourceTree, Charles, MWeb, Evernote, Plant-UML, Jenkins, Mubu
 
 ## Education
+*2004 – 2008* Anhui University of Technology | Bachelor of Computer Science and Technology
 
-[Zhejiang University Of Media And Communications](http://www.zjicm.edu.cn), Electronic and Information Engineering, 2012 - 2016
+## Honors
+- Second-class Scholarship (3 times)
+- CPC Member
 
-
-## Honors and Awards
-
-* The thirteenth [ACM-ICPC](https://icpc.baylor.edu) prize of Zhejiang Province
-* First-class scholarships for 3 times and second-class scholarship for 3 times
-
-
-## Interests
-
-I like to explore and try something that has not been done. I love playing badminton and running in my spare time.
+## Hobbies
+Football
