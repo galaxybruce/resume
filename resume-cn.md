@@ -19,7 +19,7 @@
 4. **研发效能**：
     4.1 优化项目编译速度，将项目编译耗时从 8 分钟优化至 30 秒。
     4.2 开发IntelliJ IDEA 插件创建页面，使创建页面提效 90%。
-    4.3 熟练使用AI辅助工具（如trae、antigravity），熟悉各种AI编程概念：agents、rules、skills、mcp、vibe coding、spec coding等。
+    4.3 熟练使用AI辅助工具（如trae、antigravity），熟悉各种AI编程概念：agents、rules、skills、mcp、CLI、vibe coding、spec coding等。
 5. 团队管理：技术方案设计、需求分配、开发进度管理、code review、生产bug复盘。
 
 ## 工作经历
